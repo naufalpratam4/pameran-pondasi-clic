@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #ef7f22;
+}
+
+@media (max-width: 600px) {
+  .navbar-brand {
+    /* background-color: red; */
+    font-size: 16px;
+    text-align: center;
+    display: block;
+  }
+  p.titlePameran {
+    font-size: 24px;
+  }
+  button.btn {
+    font-size: 16px;
+  }
+}
+body {
+  background: url("assets/img/home.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.hero .container {
+  justify-content: center;
+  text-align: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.titlePameran {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btn {
+  border-radius: 70px;
+  background: #ef7f22;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.btn:hover {
+  color: #ef7f22;
+  background-color: #fff;
+}

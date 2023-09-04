@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 600px) {
+  .titlePameran p {
+    font-size: 28px;
+  }
+}
+.navbarCLIC {
+  background: #ef7f22;
+}
+.titlePameran {
+  padding-top: 40px;
+  color: #000;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card {
+  width: 18rem;
+  border-radius: 20px;
+  border: 1px solid #bcbcbc;
+  background: #fff;
+}
+.card img {
+  border-radius: 20px 20px 0px 0px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.card a {
+  border-radius: 20px;
+  background: #ef7f22;
+  font-weight: bold;
+  color: white;
+}
+
+.card-body .btn:hover {
+  background-color: white;
+  color: #ef7f22;
+}
+
+.cardContent {
+  display: flex;
+  justify-content: center;
+  /* background-color: green; */
+}
