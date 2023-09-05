@@ -14,7 +14,7 @@ a:hover {
 @media (max-width: 600px) {
   .navbar-brand {
     /* background-color: red; */
-    font-size: 16px;
+
     text-align: center;
     display: block;
   }
